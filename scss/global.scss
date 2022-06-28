@@ -1,0 +1,35 @@
+// Your customizations must come before bootstrap import
+
+$enable-shadows: true;
+$primary: rgb(0, 19, 223);
+
+$body-color: #333;
+$body-bg: #f2f2f2;
+
+// TODO: Is this import functional? I had to replace this with a proper path as demonstrated below.
+// @import '../scss/bootstrap.scss';
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+.md-container {
+  max-width: 800px;
+  padding-top: 2rem;
+
+  .sml-card {
+    width: 22rem;
+    margin: 1rem 0;
+  }
+
+  .cntr-footer {
+    height: 80px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #ccc;
+  }
+
+  .sml-logo {
+    height: 1em;
+    margin-left: 10px;
+  }
+}
