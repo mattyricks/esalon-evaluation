@@ -10,26 +10,294 @@ $body-bg: #f2f2f2;
 // @import '../scss/bootstrap.scss';
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
 
-.md-container {
-  max-width: 800px;
-  padding-top: 2rem;
+.rectangle-one {
+  position: absolute;
+  width: 747px;
+  height: 703px;
+  left: 176px;
+  top: 120px;
 
-  .sml-card {
-    width: 22rem;
-    margin: 1rem 0;
+  background: #ffffff;
+  box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+
+  .puppy-profile {
+    /* Puppy Profile */
+
+    position: absolute;
+    width: 283px;
+    height: 38px;
+    left: 221px;
+    top: 165px;
+
+    font-family: 'Rockwell';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-transform: uppercase;
+
+    color: #32849b;
   }
 
-  .cntr-footer {
-    height: 80px;
-    margin-top: 20px;
+  .line-one {
+    /* Line 1 */
+
+    position: absolute;
+    width: 657px;
+    height: 0px;
+    left: 221px;
+    top: 224px;
+
+    border: 1px solid #939393;
+  }
+
+  .ellipse-one {
+    /* Ellipse 1 */
+
+    position: absolute;
+    width: 158px;
+    height: 158px;
+    left: 221px;
+    top: 254px;
+
+    // background: url(.jpg), #d9d9d9;
+  }
+
+  .name {
+    /* Name: */
+
+    position: absolute;
+    width: 50px;
+    height: 22px;
+    left: 452px;
+    top: 254px;
+
+    font-family: 'Avenir Next';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+    color: #4e4e4e;
+  }
+
+  .rectangle-two {
+    /* Rectangle 2 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 426px;
+    height: 51px;
+    left: 452px;
+    top: 281px;
+
+    background: #32849b;
+    border: 1px solid #32849b;
+    border-radius: 4px;
+  }
+
+  .date-of-birth {
+    /* Date of Birth: */
+
+    position: absolute;
+    width: 99px;
+    height: 22px;
+    left: 452px;
+    top: 369px;
+
+    font-family: 'Avenir Next';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+    color: #4e4e4e;
+  }
+
+  .rectangle-three {
+    /* Rectangle 3 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 138px;
+    height: 51px;
+    left: 452px;
+    top: 396px;
+
+    background: #ffffff;
+    border: 1px solid #32849b;
+    border-radius: 4px;
+  }
+
+  .rectangle-four {
+    /* Rectangle 4 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 138px;
+    height: 51px;
+    left: 596px;
+    top: 396px;
+
+    background: #ffffff;
+    border: 1px solid #32849b;
+    border-radius: 4px;
+  }
+
+  .rectangle-five {
+    /* Rectangle 5 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 138px;
+    height: 51px;
+    left: 740px;
+    top: 396px;
+
+    background: #ffffff;
+    border: 1px solid #32849b;
+    border-radius: 4px;
+  }
+
+  .gender-checkbox {
+    .gender {
+      /* Gender: */
+
+      position: absolute;
+      width: 61px;
+      height: 22px;
+      left: 452px;
+      top: 477px;
+
+      font-family: 'Avenir Next';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 22px;
+      /* identical to box height */
+
+      color: #4e4e4e;
+    }
+
+    .female {
+      /* Female */
+
+      position: absolute;
+      width: 54px;
+      height: 22px;
+      left: 558px;
+      top: 477px;
+
+      font-family: 'Avenir Next';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 22px;
+      /* identical to box height */
+
+      color: #4e4e4e;
+    }
+
+    .male {
+      /* Male */
+
+      position: absolute;
+      width: 36px;
+      height: 22px;
+      left: 667px;
+      top: 477px;
+
+      font-family: 'Avenir Next';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 22px;
+      /* identical to box height */
+
+      color: #4e4e4e;
+    }
+  }
+
+  .misc-notes {
+    .misc-title {
+      /* Misc Notes: */
+
+      position: absolute;
+      width: 87px;
+      height: 22px;
+      left: 452px;
+      top: 536px;
+
+      font-family: 'Avenir Next';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 22px;
+      /* identical to box height */
+
+      color: #4e4e4e;
+    }
+
+    .misc-rectangle-six {
+      /* Rectangle 6 */
+
+      box-sizing: border-box;
+
+      position: absolute;
+      width: 426px;
+      height: 128px;
+      left: 452px;
+      top: 563px;
+
+      background: #ffffff;
+      border: 1px solid #32849b;
+      border-radius: 4px;
+    }
+  }
+
+  .rectangle-seven {
+    /* Rectangle 7 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 128px;
+    height: 52px;
+    left: 611px;
+    top: 726px;
+
+    background: #ffffff;
+    border: 1px solid #939393;
+    border-radius: 4px;
+  }
+
+  .rectangle-eight {
+    /* Submit */
+
+    position: absolute;
+    width: 128px;
+    height: 52px;
+    left: 750px;
+    top: 726px;
+
+    font-family: 'Avenir Next';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    border-top: 1px solid #ccc;
-  }
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 
-  .sml-logo {
-    height: 1em;
-    margin-left: 10px;
+    color: #ffffff;
   }
 }
